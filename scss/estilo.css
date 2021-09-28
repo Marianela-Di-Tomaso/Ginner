@@ -16,6 +16,16 @@ body {
   color: #C69E34 !important;
   text-shadow: 0px 1px 4px #C69E34;
 }
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+  .nav__items--color {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1320px) {
+  .nav__items--color {
+    font-size: 14px;
+  }
+}
 
 .boton__publicar--color, .boton__buscar--boxYFlex, .boton__perfil--color {
   background-color: #C69E34;
@@ -169,7 +179,7 @@ span {
 .busco__imagen--color {
   background-image: url(../imagenes/fondoBusco.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   color: white;
 }
 
@@ -234,11 +244,43 @@ span {
   box-shadow: none;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .nav__logo--boxYFlex {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1110px) {
+  .nav__logo--boxYFlex {
+    width: 140px;
+  }
+}
+@media only screen and (min-width: 1111px) and (max-width: 1139px) {
+  .nav__logo--boxYFlex {
+    width: 180px;
+  }
+}
+@media only screen and (min-width: 1140px) and (max-width: 1300px) {
+  .nav__logo--boxYFlex {
+    width: 200px;
+  }
+}
+
 .navbar {
   padding: 0px;
   position: fixed;
   z-index: 1000;
   width: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .navbar-nav {
@@ -254,6 +296,18 @@ span {
 .nav_items--boxYFlex {
   padding: 15px;
   margin: 25px;
+}
+@media only screen and (min-width: 0px) and (max-width: 1130px) {
+  .nav_items--boxYFlex {
+    padding: 5px;
+    margin: 10px;
+  }
+}
+@media only screen and (min-width: 1131px) and (max-width: 1500px) {
+  .nav_items--boxYFlex {
+    padding: 10px;
+    margin: 15px;
+  }
 }
 
 .boton__nav--boxYFlex {
@@ -356,7 +410,7 @@ span {
 
 .contenido_card--boxYFlex, .contenido_cardE--boxYFlex {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   list-style: none;
   padding-left: 0px;
@@ -375,17 +429,17 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 30px;
+  margin-top: 120px;
 }
 
 .carrusel__imagen--boxYFlex {
-  height: 325px;
+  height: 375px;
 }
 
 /* Efecto de la nav */
 .nav-link, .boton__publicar--color, .boton__perfil--color, .boton__buscar--boxYFlex {
-  -webkit-animation-duration: 8s;
-          animation-duration: 8s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
 }

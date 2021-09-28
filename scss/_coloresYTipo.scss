@@ -20,6 +20,14 @@ body{
         color:$dorado !important;
         text-shadow: 0px 1px 4px #C69E34;
     }
+    @media only screen and (min-width:0px) and (max-width:1200px){
+        font-size: 13px;
+
+    }
+    @media only screen and (min-width:1200px) and (max-width:1320px){
+        font-size: 14px;
+
+    }
 }
 
 .boton__publicar--color{
@@ -175,7 +183,7 @@ span{
 .busco__imagen--color{
     background-image: url(../imagenes/fondoBusco.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     color: $blanco;
 }
 
