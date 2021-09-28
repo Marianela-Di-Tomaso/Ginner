@@ -129,6 +129,11 @@ span {
   font-size: 18px;
 }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.664);
+  color: white;
+}
+
 .card_etiqueta1--color {
   background-color: #C69E34;
   color: black;
@@ -217,12 +222,6 @@ span {
   padding: 0px;
 }
 
-.acordeon__contendor--boxYFlex {
-  position: absolute;
-  z-index: 2;
-  top: 220px;
-}
-
 .acordeon__card--boxYFlex {
   width: 40%;
 }
@@ -274,6 +273,7 @@ span {
   position: fixed;
   z-index: 1000;
   width: 100%;
+  box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
 }
 @media only screen and (min-width: 0px) and (max-width: 980px) {
   .navbar {
@@ -434,6 +434,13 @@ span {
 
 .carrusel__imagen--boxYFlex {
   height: 375px;
+}
+
+.miniatura__imagenes--boxYFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Efecto de la nav */
