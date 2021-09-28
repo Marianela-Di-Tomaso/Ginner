@@ -30,6 +30,9 @@
 }
 .navbar{
     padding: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 } 
 
 .navbar-nav{
@@ -70,6 +73,13 @@
     align-items: flex-end;
     text-align: left;
     position: fixed;
+}
+
+.boton__buscar--boxYFlex{
+    @extend .boton__publicar--color;
+    margin-top:20px!important;
+    margin-left: 10px;
+    width:150px;
 }
 
 /* Redes */
@@ -138,10 +148,16 @@
 .contenido_card--boxYFlex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     padding-left: 0px;
     flex-wrap: wrap;
    
+}
+
+.contenido_cardE--boxYFlex{
+    @extend .contenido_card--boxYFlex;
+    justify-content: flex-start;
 }
 
 .carrusel__card--color{

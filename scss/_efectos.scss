@@ -1,0 +1,29 @@
+/* Efecto de la nav */
+.nav-link{
+    animation-duration: 8s;
+    animation-name: aparecer;
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.boton__publicar--color{
+@extend .nav-link;
+}
+
+.boton__perfil--color{
+    @extend .nav-link;
+}
+
+.mb-3:hover{
+    
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transform: scale(1.02);
+transition: 0.3s;
+}

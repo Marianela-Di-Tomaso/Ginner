@@ -16,21 +16,16 @@ body {
   text-shadow: 0px 1px 4px #C69E34;
 }
 
-.boton__publicar--color, .boton__perfil--color, .boton__buscar--boxYFlex {
+.boton__publicar--color, .boton__buscar--boxYFlex, .boton__perfil--color {
   background-color: #C69E34;
   border-radius: 40px;
   border: none;
   color: black;
 }
-.boton__publicar--color:hover, .boton__perfil--color:hover, .boton__buscar--boxYFlex:hover {
+.boton__publicar--color:hover, .boton__buscar--boxYFlex:hover, .boton__perfil--color:hover {
   background-color: #7E6011;
   color: white;
   box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
-}
-
-.boton__buscar--boxYFlex {
-  margin: 20px;
-  width: 150px;
 }
 
 .boton__perfil--color {
@@ -53,6 +48,14 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   height: 70px;
+}
+
+.linkPropiedad__color {
+  color: black;
+}
+.linkPropiedad__color:hover {
+  text-decoration: none;
+  color: black;
 }
 
 span {
@@ -231,6 +234,9 @@ span {
 
 .navbar {
   padding: 0px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
 
 .navbar-nav {
@@ -275,6 +281,12 @@ span {
   align-items: flex-end;
   text-align: left;
   position: fixed;
+}
+
+.boton__buscar--boxYFlex {
+  margin-top: 20px !important;
+  margin-left: 10px;
+  width: 150px;
 }
 
 /* Redes */
@@ -340,12 +352,17 @@ span {
   padding: 20px;
 }
 
-.contenido_card--boxYFlex {
+.contenido_card--boxYFlex, .contenido_cardE--boxYFlex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
   padding-left: 0px;
   flex-wrap: wrap;
+}
+
+.contenido_cardE--boxYFlex {
+  justify-content: flex-start;
 }
 
 .carrusel__card--color {
@@ -361,4 +378,35 @@ span {
 
 .carrusel__imagen--boxYFlex {
   height: 325px;
+}
+
+/* Efecto de la nav */
+.nav-link, .boton__publicar--color, .boton__perfil--color, .boton__buscar--boxYFlex {
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.mb-3:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: scale(1.02);
+  transition: 0.3s;
 }/*# sourceMappingURL=estilo.css.map */

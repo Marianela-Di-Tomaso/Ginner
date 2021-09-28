@@ -31,11 +31,7 @@ body{
     }
 }
 
-.boton__buscar--boxYFlex{
-    @extend .boton__publicar--color;
-    margin:20px;
-    width:150px;
-}
+
 .boton__perfil--color{
     @extend .boton__publicar--color;
     border-radius:100px;
@@ -59,7 +55,13 @@ body{
     padding-right: 0px;
     height: 70px;
 }
-
+.linkPropiedad__color{
+    color: $negro;
+    &:hover{
+        text-decoration: none;
+        color: $negro;
+    }
+}
 span{
     margin-top: 0px;
     font-size: 15px;
