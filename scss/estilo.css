@@ -38,13 +38,14 @@ body {
 }
 
 .acordeon__card1--color {
-  background-color: rgba(0, 0, 0, 0.473);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .acordeon__cardTitulo--color {
   color: white !important;
   font-size: 40px;
   font-family: "Raleway", sans-serif;
+  src: url("tipografia/Raleway-Medium.ttf");
   font-weight: 500;
   margin-bottom: 0px;
   padding-bottom: 5px;
@@ -78,6 +79,7 @@ span {
 .busqueda__texto--color {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
+  src: url("tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
   display: flex;
@@ -103,6 +105,7 @@ span {
 .bienvenida__titulo--color {
   color: #C69E34;
   font-family: "Raleway", sans-serif;
+  src: url("tipografia/Raleway-Medium.ttf");
   font-size: 40px;
   font-weight: 500;
 }
@@ -159,7 +162,7 @@ span {
 }
 
 .busco__imagen--color {
-  background-image: url(../Imagenes/fondoBusco.jpg);
+  background-image: url(../imagenes/fondoBusco.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   color: white;
