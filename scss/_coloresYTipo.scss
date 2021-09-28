@@ -1,0 +1,201 @@
+
+/* Variables */
+$negro: black;
+$blanco: white;
+$dorado: #C69E34;
+$doradoOscuro: #7E6011;
+$crema: #FFF9EC;
+body{
+    background-color:$crema;
+}
+.nav__fondo--color{
+    background-color: $negro!important;
+}
+
+.nav__items--color{
+    color: $blanco !important;
+    font-size: 16px;
+    &:hover{color:$dorado !important;
+        text-shadow: 0px 1px 4px #C69E34;
+    }
+}
+
+.boton__publicar--color{
+    background-color: $dorado;
+    border-radius: 40px;
+    border: none;
+    color: $negro;
+    &:hover{background-color:$doradoOscuro;
+        color: $blanco;
+        box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+    }
+}
+
+.boton__buscar--boxYFlex{
+    @extend .boton__publicar--color;
+    margin:20px;
+    width:150px;
+}
+.boton__perfil--color{
+    @extend .boton__publicar--color;
+    border-radius:100px;
+}
+
+.acordeon__card1--color{
+    background-color: rgba(0, 0, 0, 0.473);
+
+}
+
+.acordeon__cardTitulo--color{
+    color: $blanco !important;
+    font-size: 40px;
+    font-family:  'Raleway', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    line-height: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 70px;
+}
+
+span{
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.acordeon__colapso--color{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: $blanco;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+.busqueda__titulo--color{
+    background-color: $dorado;
+    border-radius: 20px;
+    height: 100px;
+    margin-bottom: 0px;
+    color: $negro;
+    padding-right: 20px;
+}
+
+.busqueda__texto--color{
+    font-size: 20px;
+    font-family:  'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icono__flotante--color{
+    background-color: $negro;
+    color: $blanco;
+    font-size: 35px;
+}
+
+.busqueda__contendor--color{
+    background-color: $negro;
+    color: $blanco;
+}
+
+.bienvenida__titulo--color{
+    color: $dorado;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.bienvenida__texto--color{
+    font-size: 18px;
+}
+
+.card_etiqueta1--color{
+    background-color: $dorado;
+    color: $negro;
+    margin-bottom: 0px;
+    padding:5px;
+    text-align: center;
+    font-size: 14px;
+}
+.card_etiqueta2--color{
+    background-color: $negro;
+    color: $blanco;
+    padding:5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card__precio--color{
+    font-size: 27px;
+    font-weight: 700;
+}
+.card__expensas--color{
+    font-weight: 700;
+    font-size: 20px;
+}
+.card__expensas--color span{
+    @extend .card__precio--color;
+    font-size: 20px;
+    color: $dorado;
+}
+.card__precio--color span{
+   color: $dorado;
+   font-size: 27px;
+    font-weight: 700;
+}
+
+
+.carrusel__card--color{
+    background-color: $crema;
+}
+
+.card{
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.busco__imagen--color{
+    background-image: url(../Imagenes/fondoBusco.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: $blanco;
+}
+
+.busco__texto--color{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.datos__busco--color{
+    color: rgb(90, 90, 90);
+    margin: 5px;
+}
+
+.descripcion__busco--color{
+    color: $negro;
+    margin-bottom: 70px;
+
+}
+
+.footer__fondo--color{
+    background-color:$negro;
+    color: $blanco;
+}
+
+.footer__titulo1--color{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+}
