@@ -287,6 +287,11 @@ span {
 .acordeon__card--boxYFlex {
   width: 60%;
 }
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+  .acordeon__card--boxYFlex {
+    width: 80%;
+  }
+}
 
 .acordeon__ubicacion--boxYFlex {
   display: flex;
