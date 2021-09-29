@@ -146,10 +146,6 @@
 
 .icon-facebook {
 	background: #2E406E;
-}
-
-.icon-printer{
-    background-color: darkcyan;
     border-radius: 1rem 0 0 0;
 }
 
@@ -297,7 +293,11 @@
 }
 
 .miniatura__imagenes--boxYFlex{
-    @media only screen and (min-width:0px) and (max-width:1000px){
+    @media only screen and (min-width:0px) and (max-width:740px){
+        flex-direction: column;
+        margin-top: 0px;
+     }
+    @media only screen and (min-width:741px) and (max-width:1000px){
         flex-direction: row;
         margin-top: 0px;
      }
@@ -311,3 +311,12 @@
 
 }
 
+.imagenes_chicas--boxYFlex{
+    @media only screen and (min-width:0px) and (max-width:740px){
+        width: 600px;
+        height: 300px;
+        align-items: center;
+     }
+
+
+}

@@ -434,10 +434,6 @@ span {
 
 .icon-facebook {
   background: #2E406E;
-}
-
-.icon-printer {
-  background-color: darkcyan;
   border-radius: 1rem 0 0 0;
 }
 
@@ -586,7 +582,13 @@ span {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1000px) {
+@media only screen and (min-width: 0px) and (max-width: 740px) {
+  .miniatura__imagenes--boxYFlex {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
+@media only screen and (min-width: 741px) and (max-width: 1000px) {
   .miniatura__imagenes--boxYFlex {
     flex-direction: row;
     margin-top: 0px;
@@ -596,6 +598,14 @@ span {
 @media only screen and (min-width: 0px) and (max-width: 1000px) {
   .carrusel__mobile--tamaño {
     height: 200px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 740px) {
+  .imagenes_chicas--boxYFlex {
+    width: 600px;
+    height: 300px;
+    align-items: center;
   }
 }
 
