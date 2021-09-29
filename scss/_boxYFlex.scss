@@ -77,8 +77,8 @@
 
     }
     @media only screen and (min-width:1131px) and (max-width:1500px){
-        padding: 10px;
-        margin: 15px;
+        padding: 9px;
+        margin: 14px;
 
     }
 }
@@ -116,6 +116,12 @@
     margin-top:20px!important;
     margin-left: 10px;
     width:150px;
+    @media only screen and (min-width:960px) and (max-width:1140px){
+        width: 120px;
+       
+
+    }
+
 }
 
 /* Redes */
@@ -179,6 +185,7 @@
 
 .carrusel__card--boxYFlex{
     padding: 20px;
+
 }
 
 .contenido_card--boxYFlex{
@@ -218,3 +225,89 @@
     width: 100%;
 
 }
+
+.navbar-toggler{
+    @media only screen and (min-width:0px) and (max-width:499px){
+        position: relative;
+        right: 50px;
+    }
+    @media only screen and (min-width:500px) and (max-width:614px){
+        position: relative;
+        right: 110px;
+    }
+    @media only screen and (min-width:615px) and (max-width:680px){
+        position: relative;
+        right: 170px;
+    }
+    @media only screen and (min-width:680px) and (max-width:800px){
+        position: relative;
+        right: 200px;
+    }
+    @media only screen and (min-width:800px) and (max-width:980px){
+        position: relative;
+        right: 260px;
+    }
+}
+
+.carrusel_tamaño{
+    @media only screen and (min-width:0px) and (max-width:800px){
+        height: 300px!important;
+    }
+}
+
+.carousel-caption{
+    @media only screen and (min-width:0px) and (max-width:800px){
+        height: 80px;
+        padding: 2px;
+    }
+
+}
+.carousel-caption h5{
+    @media only screen and (min-width:0px) and (max-width:800px){
+       font-size: 12px;
+       
+    }
+
+}
+.carousel-caption p{
+    @media only screen and (min-width:0px) and (max-width:800px){
+       font-size: 10px;
+    }
+
+}
+
+.contenedor__tarjetas--boxYFlex{
+    height: 430px; 
+    background-color: #FFF9EC;
+
+    @media only screen and (min-width:0px) and (max-width:1000px){
+        height: 900px;
+     }
+
+}
+
+.contenedor1__tarjetas--boxYFlex{
+    height: 430px; 
+    background-color: #FFF9EC;
+
+    @media only screen and (min-width:0px) and (max-width:1000px){
+        height: 1700px;
+     }
+
+}
+
+.miniatura__imagenes--boxYFlex{
+    @media only screen and (min-width:0px) and (max-width:1000px){
+        flex-direction: row;
+        margin-top: 0px;
+     }
+
+}
+
+.carrusel__mobile--tamaño{
+    @media only screen and (min-width:0px) and (max-width:1000px){
+        height: 200px;
+     }
+
+}
+
