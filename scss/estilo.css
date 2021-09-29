@@ -144,6 +144,11 @@ span {
   font-size: 40px;
   font-weight: 500;
 }
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+  .bienvenida__titulo--color {
+    font-size: 30px;
+  }
+}
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.568);
@@ -470,6 +475,7 @@ span {
   align-items: center;
   margin-top: 60px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .carrusel__card--boxYFlex {
