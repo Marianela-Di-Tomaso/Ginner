@@ -391,21 +391,42 @@ span {
   text-align: center;
   font-size: 13px;
   line-height: 16px;
+  margin: 0px;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .texto {
+    font-size: 11px;
+  }
 }
 
 .titulo_particular {
   font-size: 16px;
   margin: 0px;
 }
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .titulo_particular {
+    font-size: 13px;
+  }
+}
 
 .texto_particular {
   font-size: 14px;
   margin: 5px;
 }
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .texto_particular {
+    font-size: 12px;
+  }
+}
 
 .boton_tamaño {
   font-size: 14px;
   height: 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .boton_tamaño {
+    font-size: 12px;
+  }
 }
 
 /* Variables */
@@ -800,21 +821,42 @@ span {
   text-align: center;
   font-size: 13px;
   line-height: 16px;
+  margin: 0px;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .texto {
+    font-size: 11px;
+  }
 }
 
 .titulo_particular {
   font-size: 16px;
   margin: 0px;
 }
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .titulo_particular {
+    font-size: 13px;
+  }
+}
 
 .texto_particular {
   font-size: 14px;
   margin: 5px;
 }
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .texto_particular {
+    font-size: 12px;
+  }
+}
 
 .boton_tamaño {
   font-size: 14px;
   height: 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .boton_tamaño {
+    font-size: 12px;
+  }
 }
 
 /* quitar margenes */
@@ -1237,9 +1279,9 @@ span {
   height: 100px;
   padding: 5px;
 }
-@media only screen and (min-width: 0px) and (max-width: 600px) {
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
   .tarjetaElegir__tamaño--boxYFlex {
-    width: 330px;
+    width: 300px;
   }
 }
 

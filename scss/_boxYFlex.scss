@@ -410,8 +410,8 @@
 .tarjetaElegir__tamaño--boxYFlex{
     height: 100px;
     padding: 5px;
-    @media only screen and (min-width:0px) and (max-width:600px){
-        width: 330px;
+    @media only screen and (min-width:0px) and (max-width:1000px){
+        width: 300px;
      }
 
 }

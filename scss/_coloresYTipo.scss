@@ -377,20 +377,30 @@ span{
     text-align: center;
     font-size: 13px;
     line-height: 16px;
+    margin: 0px;
+    @media only screen and (min-width:0px) and (max-width:600px){
+        font-size: 11px; }
     
 }
 
 .titulo_particular{
     font-size: 16px;
     margin: 0px;
+    @media only screen and (min-width:0px) and (max-width:600px){
+        font-size: 13px; }
 }
 
 .texto_particular{
     font-size: 14px;
     margin: 5px;
+    @media only screen and (min-width:0px) and (max-width:600px){
+        font-size: 12px; }
+    
 }
 .boton_tamaño{
     font-size: 14px;
     height: 30px;
+    @media only screen and (min-width:0px) and (max-width:600px){
+        font-size: 12px; }
 
 }
