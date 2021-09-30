@@ -32,11 +32,11 @@
           <div class="form-row formulario__boxYFlex" >
             <div class="form-group col-md-12" style="padding: 0px;">
               <label for="inputEmail4" class="mail__color" >Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
+              <input type="email" class="form-control inicioSesion" id="inputEmail4">
             </div>
             <div class="form-group col-md-12" style="padding: 0px;">
               <label for="inputPassword4" class="mail__color">Contraseña</label>
-              <input type="password" class="form-control" id="inputPassword4">
+              <input type="password" class="form-control inicioSesion" id="inputPassword4">
             </div>
 
           </div>
@@ -77,7 +77,7 @@
 
 <!-- Modal elegir-->
 <div class="modal fade" id="modalEleccion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header" >
         <h5 class="modal-title" id="exampleModalLabel">¡Estas a un solo paso!</h5>
@@ -85,9 +85,12 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="height: 500px;">
+      <div class="modal-body">
         <p class="texto__modal--boxYFlex">Elegí el tipo de cuenta que se ajuste a tus necesidades</p>
+        <p class="especificacion__boxYFlex">Perfiles tradiconales</p>
         <div class="contendor__modal--boxyflex">
+          
+
         <div class="card" style="width: 18rem; align-items: center;">
           <img src="imagenes/particular.png" class="card-img-top img-fluid" style="width: 200px;" alt="...">
           <div class="card-body"  style="text-align: center;">
@@ -96,6 +99,7 @@
             <a href="#" class="btn btn-primary boton__modal--color" type="button" data-toggle="modal" data-target="#modalParticular" data-dismiss="modal">Elegir</a>
           </div>
         </div>
+        
         <div class="card" style="width: 18rem; align-items: center;">
           <img src="imagenes/profesional.png" class="card-img-top img-fluid"  style="width: 180px;" alt="...">
           <div class="card-body" style="text-align: center;">
@@ -105,6 +109,29 @@
           </div>
         </div>
       </div>
+
+      <p class="especificacion__boxYFlex"> ★★★ Perfiles verificados ★★★</p>
+      <div class="contendor__modal--boxyflex">
+
+        <div class="card" style="width: 18rem; align-items: center;">
+          <img src="imagenes/particular.png" class="card-img-top img-fluid" style="width: 200px;" alt="...">
+          <div class="card-body"  style="text-align: center;">
+            <h5 class="card-title">Particular</h5>
+            <p class="card-text">Dueño directo</p>
+            <a href="#" class="btn btn-primary boton__modal--color" type="button" data-toggle="modal" data-target="#modalParticular" data-dismiss="modal">Elegir</a>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem; align-items: center;">
+          <img src="imagenes/profesional.png" class="card-img-top img-fluid"  style="width: 180px;" alt="...">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Profesional</h5>
+            <p class="card-text">Inmobiliarias, corredores, constructoras</p>
+            <a href="#" class="btn btn-primary boton__modal--color" data-toggle="modal" data-target="#modalProfesional" data-dismiss="modal">Elegir</a>
+          </div>
+        </div>
+      </div>
+
       </div>
       <div class="modal-footer">
        

@@ -4,6 +4,27 @@ body {
   background-color: #FFF9EC;
 }
 
+/* Modificacion en el scroll */
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #C69E34;
+  border-radius: 5px;
+}
+
+.modal-body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #ffffff;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 5px;
+}
+
 .nav__fondo--color {
   background-color: black !important;
 }
@@ -347,6 +368,385 @@ span {
 
 .mail__color {
   font-size: 20px;
+}
+
+.inicioSesion {
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.144);
+}
+
+/* Variables */
+body {
+  background-color: #FFF9EC;
+}
+
+/* Modificacion en el scroll */
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #C69E34;
+  border-radius: 5px;
+}
+
+.modal-body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #ffffff;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.nav__fondo--color {
+  background-color: black !important;
+}
+
+.nav__items--color {
+  color: white !important;
+  font-size: 16px;
+}
+.nav__items--color:hover {
+  transition: 0.8s;
+  color: #C69E34 !important;
+  text-shadow: 0px 1px 4px #C69E34;
+}
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+  .nav__items--color {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1320px) {
+  .nav__items--color {
+    font-size: 15px;
+  }
+}
+
+.boton__publicar--color, .boton__buscar--boxYFlex, .boton__perfil--color {
+  background-color: #C69E34;
+  border-radius: 40px;
+  border: none;
+  color: black;
+}
+.boton__publicar--color:hover, .boton__buscar--boxYFlex:hover, .boton__perfil--color:hover {
+  transition: 0.8s;
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.boton__perfil--color {
+  border-radius: 100px;
+}
+
+.acordeon__card1--color {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.acordeon__cardTitulo--color {
+  color: white !important;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  src: url("tipografia/Raleway-Medium.ttf");
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  line-height: 35px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 70px;
+}
+@media only screen and (min-width: 0px) and (max-width: 990px) {
+  .acordeon__cardTitulo--color {
+    font-size: 25px;
+  }
+}
+
+.linkPropiedad__color {
+  color: black;
+}
+.linkPropiedad__color:hover {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.acordeon__colapso--color {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.busqueda__titulo--color {
+  background-color: #C69E34;
+  border-radius: 20px;
+  height: 100px;
+  margin-bottom: 0px;
+  color: black;
+  padding-right: 20px;
+}
+
+.busqueda__texto--color {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  src: url("tipografia/Raleway-Medium.ttf");
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media only screen and (min-width: 980px) and (max-width: 1119px) {
+  .busqueda__texto--color {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media only screen and (min-width: 1120px) and (max-width: 1280px) {
+  .busqueda__texto--color {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+.icono__flotante--color {
+  background-color: black;
+  color: white;
+  font-size: 35px;
+}
+
+.busqueda__contendor--color {
+  background-color: black;
+  color: white;
+}
+
+.bienvenida__titulo--color {
+  color: #C69E34;
+  font-family: "Raleway", sans-serif;
+  src: url("tipografia/Raleway-Medium.ttf");
+  font-size: 40px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+  .bienvenida__titulo--color {
+    font-size: 30px;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+}
+
+.contenedor__card--color {
+  background-color: #FFF9EC;
+  height: 430px;
+}
+
+.card_etiqueta1--color {
+  background-color: #C69E34;
+  color: black;
+  margin-bottom: 0px;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card_etiqueta2--color {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card__precio--color, .card__expensas--color span {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.card__expensas--color {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card__expensas--color span {
+  font-size: 20px;
+  color: #C69E34;
+}
+
+.card__precio--color span, .card__expensas--color span span {
+  color: #C69E34;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.carrusel__card--color {
+  background-color: #FFF9EC;
+}
+
+.card {
+  box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.busco__imagen--color {
+  background-image: url(../imagenes/fondoBusco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.busco__texto--color {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.datos__busco--color {
+  color: #5a5a5a;
+  margin: 5px;
+}
+
+.descripcion__busco--color {
+  color: black;
+  margin-bottom: 70px;
+}
+
+.footer__fondo--color {
+  background-color: black;
+  color: white;
+}
+
+.footer__titulo1--color {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 20px;
+}
+
+/* Responsive */
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .card-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .contenido_card--boxYFlex, .contenido_cardE--boxYFlex {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .card__precio--color, .card__expensas--color span, .card__expensas--color {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .card__precio--color span, .card__expensas--color span span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1230px) {
+  .verificado {
+    width: 85px;
+  }
+}
+
+.navbar-toggler {
+  background-color: #C69E34;
+}
+
+.modal-title {
+  font-size: 30px;
+  color: #C69E34;
+  text-align: center !important;
+  width: 99.8%;
+}
+
+.boton__modal--color {
+  background-color: #C69E34;
+  color: black;
+  border: none;
+  width: 200px;
+}
+.boton__modal--color:hover {
+  transition: 0.8s;
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.boton__modal--color:focus {
+  transition: 0.8s;
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.cerrar__modal--color {
+  background-color: black;
+  color: white;
+}
+.cerrar__modal--color:hover {
+  transition: 0.8s;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.registro__modal--color {
+  background-color: #C69E34;
+  color: black;
+  border: none;
+}
+.registro__modal--color:hover {
+  transition: 0.8s;
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.registro__modal--color:focus {
+  transition: 0.8s;
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .boton__modal--color {
+    width: auto;
+  }
+}
+
+.mail__color {
+  font-size: 20px;
+}
+
+.inicioSesion {
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.144);
 }
 
 /* quitar margenes */
@@ -697,7 +1097,7 @@ span {
 
 .texto__modal--boxYFlex {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .formulario__boxYFlex {
@@ -743,6 +1143,20 @@ span {
 
 .redes1 {
   width: 200px;
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .redes1 {
+    width: 100px;
+  }
+}
+
+.especificacion__boxYFlex {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #C69E34;
 }
 
 /* Efecto de la nav */
