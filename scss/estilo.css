@@ -288,7 +288,7 @@ span {
   font-size: 30px;
   color: #C69E34;
   text-align: center !important;
-  width: 99%;
+  width: 99.8%;
 }
 
 .boton__modal--color {
@@ -343,6 +343,10 @@ span {
   .boton__modal--color {
     width: auto;
   }
+}
+
+.mail__color {
+  font-size: 20px;
 }
 
 /* quitar margenes */
@@ -694,6 +698,51 @@ span {
 .texto__modal--boxYFlex {
   text-align: center;
   margin-bottom: 50px;
+}
+
+.formulario__boxYFlex {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__cuerpo--boxYFlex {
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header .close {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.primermodal__boxYFlex {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes__modal--boxYFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.redes {
+  width: 30%;
+}
+.redes:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+.redes1 {
+  width: 200px;
 }
 
 /* Efecto de la nav */
