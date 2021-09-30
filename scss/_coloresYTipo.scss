@@ -299,10 +299,6 @@ span{
     color: $negro;
     border: none;
     width: 200px;
-    @media only screen and (min-width:0px) and (max-width:600px){
-        width: 100px;
-
-}   
     &:hover{
         transition: 0.8s;
         background-color:$doradoOscuro;
@@ -338,5 +334,14 @@ span{
 }
 
 .registro__modal--color:focus{
-    @extend .boton__modal--color:focus
+    transition: 0.8s;
+    background-color:$doradoOscuro;
+    color: $blanco;
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199); 
 }
+
+.boton__modal--color{
+   
+    @media only screen and (min-width:0px) and (max-width:600px){
+        width: auto; }}
+
