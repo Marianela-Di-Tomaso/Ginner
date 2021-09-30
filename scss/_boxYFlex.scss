@@ -326,3 +326,17 @@
 
 }
 
+/* modal */
+.modal-backdrop
+{
+    opacity:0.9 !important;
+}
+
+.contendor__modal--boxyflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.texto__modal--boxYFlex{
+    text-align: center;
+    margin-bottom: 50px;
+}

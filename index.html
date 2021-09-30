@@ -16,6 +16,202 @@
     <link rel="stylesheet" href="scss/estilo.css">
 </head>
 <body>
+
+  <!-- REGISTRO -->
+  <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <h5 class="modal-title" id="exampleModalLabel">¡Estas a un solo paso!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="height: 500px;">
+        <p class="texto__modal--boxYFlex">Elegí el tipo de cuenta que se ajuste a tus necesidades</p>
+        <div class="contendor__modal--boxyflex">
+        <div class="card" style="width: 18rem; align-items: center;">
+          <img src="imagenes/particular.png" class="card-img-top img-fluid" style="width: 200px;" alt="...">
+          <div class="card-body"  style="text-align: center;">
+            <h5 class="card-title">Particular</h5>
+            <p class="card-text">Dueño directo</p>
+            <a href="#" class="btn btn-primary boton__modal--color" type="button" data-toggle="modal" data-target="#modalParticular" data-dismiss="modal">Elegir</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; align-items: center;">
+          <img src="imagenes/profesional.png" class="card-img-top img-fluid"  style="width: 180px;" alt="...">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Profesional</h5>
+            <p class="card-text">Inmobiliarias, corredores, constructoras</p>
+            <a href="#" class="btn btn-primary boton__modal--color" data-toggle="modal" data-target="#modalProfesional" data-dismiss="modal">Elegir</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+       
+      </div> 
+    </div>
+  </div>
+</div>
+
+<!--PARTICULAR -->
+<div class="modal fade" id="modalParticular" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <h5 class="modal-title">¡Ya casi!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="texto__modal--boxYFlex">Para registrate, completa estos datos</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Nombre</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Apellido</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Teléfono</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+         
+          
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Localidad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">Provincia</label>
+              <select id="inputState" class="form-control">
+                <option selected>Elegir una provincia</option>
+                <option>Buenos Aires</option>
+                <option>Capital Federal</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Al registrarte aceptas los terminos y condiciones
+              </label>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary cerrar__modal--color" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary  registro__modal--color">Registrarme</button> 
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+
+<!--PROFESIONAL -->
+<div class="modal fade" id="modalProfesional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <h5 class="modal-title">¡Ya casi!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="texto__modal--boxYFlex">Para registrate, completa estos datos</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputPassword4">Nombre de la empresa</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email de la empresa</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Teléfono de la empresa</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+         
+          
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Localidad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">Provincia</label>
+              <select id="inputState" class="form-control">
+                <option selected>Elegir una provincia</option>
+                <option>Buenos Aires</option>
+                <option>Capital Federal</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputPassword4">Logotipo de la empresa</label><br>
+              <input type="file" name="archivosubido">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Al registrarte aceptas los terminos y condiciones
+              </label>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary cerrar__modal--color" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary  registro__modal--color">Registrarme</button> 
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+
 <!-- redes -->
   <div class="social-bar">
     <a href="" class="icon icon-facebook" target="_blank"></a>
@@ -69,7 +265,7 @@
                       </li>
                       </ul>
                         <button class="btn  my-2 my-sm-0 boton__publicar--color boton__nav--boxYFlex" type="submit">Publicar</button>
-                        <button class="btn  my-2 my-sm-0 boton__perfil--color boton__nav--boxYFlex" type="submit"><img src="./imagenes/perfil.svg" alt=""></button>
+                        <button class="btn  my-2 my-sm-0 boton__perfil--color boton__nav--boxYFlex" type="button" data-toggle="modal" data-target="#exampleModal"><img src="./imagenes/perfil.svg" alt=""></button>
                         <ul>
                     </div>
                   </nav>
@@ -82,7 +278,7 @@
       <div class="row">
           <div class="col-lg-12 col-xs-12">
                   <!-- Carrusel -->
-              <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="4000">
+              <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="4000" style="width: 100%;">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
