@@ -329,9 +329,12 @@
 }
 
 /* modal */
+.modal-open {
+    overflow: scroll;
+}
 .modal-backdrop
 {
-    opacity:0.9 !important;
+    opacity:0.98 !important;
 }
 
 .contendor__modal--boxyflex{
@@ -400,4 +403,8 @@
     font-weight: bold;
     text-align: center;
     background-color: $dorado;
+}
+
+.tarjetaElegir__tamaño--boxYFlex{
+    height: 180px;
 }
