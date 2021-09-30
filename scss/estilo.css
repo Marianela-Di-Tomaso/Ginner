@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .modal-body::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: #C69E34;
   border-radius: 5px;
 }
 
@@ -430,7 +430,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .modal-body::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: #C69E34;
   border-radius: 5px;
 }
 
@@ -1239,7 +1239,7 @@ span {
 }
 @media only screen and (min-width: 0px) and (max-width: 600px) {
   .tarjetaElegir__tamaño--boxYFlex {
-    width: 230px;
+    width: 330px;
   }
 }
 
