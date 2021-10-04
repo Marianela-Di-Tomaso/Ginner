@@ -234,7 +234,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
+    height: 83%;
 }
 
 .navbar-toggler{
@@ -311,10 +311,16 @@
     @media only screen and (min-width:0px) and (max-width:740px){
         flex-direction: column;
         margin-top: 0px;
+        height: 40%;
+        margin-top: 70px;
+        margin-bottom: 0px;
+       
+        
      }
     @media only screen and (min-width:741px) and (max-width:1000px){
         flex-direction: row;
         margin-top: 0px;
+        height: 20%;
      }
 
 }
@@ -327,10 +333,17 @@
 }
 
 .imagenes_chicas--boxYFlex{
-    @media only screen and (min-width:0px) and (max-width:740px){
-        width: 600px;
-        height: 300px;
+    @media only screen and (min-width:0px) and (max-width:500px){
+        width: 250px;
+        height: 30%;
         align-items: center;
+        margin: 30px;
+     }
+    @media only screen and (min-width:500px) and (max-width:740px){
+        width: 450px;
+        height: 40%;
+        align-items: center;
+        margin: 20px;
      }
 
 
