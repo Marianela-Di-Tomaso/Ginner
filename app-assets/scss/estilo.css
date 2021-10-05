@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
   color: white !important;
   font-size: 35px;
   font-family: "Raleway", sans-serif;
-  src: url("tipografia/Raleway-Medium.ttf");
+  src: url("../tipografia/Raleway-Medium.ttf");
   font-weight: 500;
   margin-bottom: 0px;
   padding-bottom: 5px;
@@ -121,7 +121,7 @@ span {
 .busqueda__texto--color {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
-  src: url("tipografia/Raleway-Medium.ttf");
+  src: url("../tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
   display: flex;
@@ -161,7 +161,7 @@ span {
 .bienvenida__titulo--color {
   color: #C69E34;
   font-family: "Raleway", sans-serif;
-  src: url("tipografia/Raleway-Medium.ttf");
+  src: url("../tipografia/Raleway-Medium.ttf");
   font-size: 40px;
   font-weight: 500;
 }
@@ -401,6 +401,137 @@ span {
   .boton_tamaño {
     font-size: 12px;
   }
+}
+
+/* ANUNCIO AMPLIADO */
+.anunciante__titulo--color {
+  color: #C69E34;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.anunciante__nombre--color {
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.anunciante__verificado--color {
+  color: black;
+  background-color: #C69E34;
+  border-radius: 10px;
+}
+
+.anuncio__contenedor--color {
+  background-color: #C69E34;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  margin-left: 40px;
+  height: 20%;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.titulo__anuncio--color, .expensas__anuncio--color, .titulo2__anuncio--color {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  src: url("../tipografia/Raleway-Medium.ttf");
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.titulo2__anuncio--color {
+  text-align: right;
+  font-size: 30px;
+}
+
+.expensas__anuncio--color {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.icono__anuncio--color {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+.icono__anuncio--color:focus {
+  background-color: #C69E34;
+}
+
+.icono__anuncio--color:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+.visualizacion__texto--color {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  padding-top: 8px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.descripcion__titulo--color {
+  color: #C69E34;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.descripcion__texto--color {
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.contenedor__contacto--color {
+  background-color: #C69E34;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.boton__consulta--color {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.boton__consulta--color:hover {
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+  transition: 0.6s;
+}
+
+.boton__visita--color {
+  background-color: #C69E34;
+  color: black;
+  border-radius: 20px;
+}
+
+.boton__visita--color:hover {
+  background-color: #7E6011;
+  color: black;
+  transition: 0.6s;
+}
+
+.logos__tabla--color {
+  background-color: #C69E34;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.contenedor__visita--color {
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* Variables */
@@ -478,7 +609,7 @@ body::-webkit-scrollbar-thumb {
   color: white !important;
   font-size: 35px;
   font-family: "Raleway", sans-serif;
-  src: url("tipografia/Raleway-Medium.ttf");
+  src: url("../tipografia/Raleway-Medium.ttf");
   font-weight: 500;
   margin-bottom: 0px;
   padding-bottom: 5px;
@@ -525,7 +656,7 @@ span {
 .busqueda__texto--color {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
-  src: url("tipografia/Raleway-Medium.ttf");
+  src: url("../tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
   display: flex;
@@ -565,7 +696,7 @@ span {
 .bienvenida__titulo--color {
   color: #C69E34;
   font-family: "Raleway", sans-serif;
-  src: url("tipografia/Raleway-Medium.ttf");
+  src: url("../tipografia/Raleway-Medium.ttf");
   font-size: 40px;
   font-weight: 500;
 }
@@ -805,6 +936,137 @@ span {
   .boton_tamaño {
     font-size: 12px;
   }
+}
+
+/* ANUNCIO AMPLIADO */
+.anunciante__titulo--color {
+  color: #C69E34;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.anunciante__nombre--color {
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.anunciante__verificado--color {
+  color: black;
+  background-color: #C69E34;
+  border-radius: 10px;
+}
+
+.anuncio__contenedor--color {
+  background-color: #C69E34;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  margin-left: 40px;
+  height: 20%;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+.titulo__anuncio--color, .titulo2__anuncio--color, .expensas__anuncio--color {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  src: url("../tipografia/Raleway-Medium.ttf");
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.titulo2__anuncio--color {
+  text-align: right;
+  font-size: 30px;
+}
+
+.expensas__anuncio--color {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.icono__anuncio--color {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+.icono__anuncio--color:focus {
+  background-color: #C69E34;
+}
+
+.icono__anuncio--color:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+.visualizacion__texto--color {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  padding-top: 8px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.descripcion__titulo--color {
+  color: #C69E34;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.descripcion__texto--color {
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.contenedor__contacto--color {
+  background-color: #C69E34;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.boton__consulta--color {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.boton__consulta--color:hover {
+  background-color: #7E6011;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+  transition: 0.6s;
+}
+
+.boton__visita--color {
+  background-color: #C69E34;
+  color: black;
+  border-radius: 20px;
+}
+
+.boton__visita--color:hover {
+  background-color: #7E6011;
+  color: black;
+  transition: 0.6s;
+}
+
+.logos__tabla--color {
+  background-color: #C69E34;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.contenedor__visita--color {
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* quitar margenes */
@@ -1268,6 +1530,139 @@ span {
 .modal-dialog-scrollable .modal-body {
   overflow-y: hidden;
   overflow-x: hidden;
+}
+
+/* ANUNCIO EN DETALLE */
+.nav__anuncio--boxYFlex {
+  margin-bottom: 120px;
+}
+
+.carrusel_anuncio--boxYFlex {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.seccionDerecha__anunciante--boxYFlex {
+  padding-top: 30px;
+  padding-left: 35px;
+}
+
+.anunciante__titulo--boxYFlex {
+  margin-bottom: 15px;
+}
+
+.anunciante__texto--boxYFlex {
+  margin-bottom: 15px;
+}
+
+.anunciante__verificado--boxYFlex {
+  margin-bottom: 30px;
+  padding: 7px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.datos__contenedor--boxYFlex {
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 600px;
+}
+
+.datos2__contenedor--boxYFlex {
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 296px;
+}
+
+.titulo2__anuncio--boxYFlex, .expensas__anuncio--boxYFlex {
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+
+.iconos__contenedor--boxYFlex {
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.acciones__anuncio--boxYFlex {
+  position: absolute;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: 55px;
+}
+
+.visualizacion__contenedor--boxYFlex {
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.visualizacion__icono--boxYFlex {
+  padding-right: 3%;
+}
+
+.descripcion__contenedor--boxYFlex {
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+.contenedor__contacto--color, .contenedor__visita--color {
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+.descripcion__titulo--boxYFlex {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.formulario__contendor--boxYFlex {
+  margin: 20px;
+}
+
+.contacto__titulo--boxYFlex {
+  margin: 0px;
+  text-align: center;
+}
+
+.boton__consulta--boxYFlex {
+  width: 100%;
+}
+
+tr {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.valores__Tabla--boxYFlex {
+  width: 30%;
+}
+
+.logos__tabla--boxYFlex {
+  width: 8.5%;
+}
+
+.informacion__tabla--boxYFlx {
+  width: 83%;
+}
+
+.iconos__tamaño {
+  width: 40px;
 }
 
 /* Efecto de la nav */
