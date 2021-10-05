@@ -410,7 +410,7 @@ span{
     justify-content: flex-start;
     color: $negro;
     margin-left: 40px;
-    height: 20%;
+    height: 17%;
     box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
 }
 
@@ -420,6 +420,7 @@ span{
     src: url("../tipografia/Raleway-Medium.ttf");
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 0px
 }
 .titulo2__anuncio--color{
     @extend .titulo__anuncio--color;
@@ -470,6 +471,10 @@ span{
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 10px;
+    @media only screen and (min-width:0px) and (max-width:500px){
+       font-size: 16px;
+       padding-left: 10px;
+          }
 }
 
 .contenedor__contacto--color{
@@ -514,3 +519,40 @@ span{
     color: $blanco;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Prueba */
+
+.img-container {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .img-container:before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+    transition: opacity .3s linear;   
+  }
+  
+  .img-container:hover:before { 
+    opacity: .75;
+  }
+  
+  .img-container p {
+    width: inherit;  
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 100%; 
+    transition: top .3s linear;
+  }
+  
+  .img-container:hover p {    
+    top: 70%;
+  }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRINNE - Propiedad</title>
     <link rel="icon" href="../imagenes/logoChico.svg">
     <meta name="description" content="GRINNER - grupo inversiones y negocios, plataforma de ofertas y demandas, de bienes y servicios, mas comprometida y amplia que las tradicionales.">
@@ -60,9 +60,9 @@
             <div class="primermodal__boxYFlex">
               <p>O ingresa con</p>
             <div class="redes__modal--boxYFlex">
-               <a href="" class="redes1"><img src="imagenes/facebook.png" class="redes img-fluid"></a>
-               <a href="" class="redes1"><img src="imagenes/instagram.png" class="redes img-fluid"></a>
-               <a href="" class="redes1"><img src="imagenes/gmail.png" class="redes img-fluid"></a>
+               <a href="" class="redes1"><img src="../imagenes/facebook.png" class="redes img-fluid"></a>
+               <a href="" class="redes1"><img src="../imagenes/instagram.png" class="redes img-fluid"></a>
+               <a href="" class="redes1"><img src="../imagenes/gmail.png" class="redes img-fluid"></a>
             </div>   
               <p> <strong>¿No tenes cuenta? </strong></p>
               <a href="#" class="btn btn-primary boton__modal--color" type="button" data-toggle="modal" data-target="#modalRegistroSimple" data-dismiss="modal">¡Registrate aca!</a>
@@ -222,8 +222,8 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-                  <div class="anuncio__contenedor--color anuncio__contenedor--boxYFlex">
-                  <div class="datos__contenedor--boxYFlex">
+                  <div class=" anuncio__contenedor--color anuncio__contenedor--boxYFlex container-fluid">
+                  <div class=" datos__contenedor--boxYFlex">
                     <h4 class = "titulo__anuncio--color"> Departamento en Alquiler</h4>
                     <p> Av Santa fe 1235, Recoleta, CABA</p>
                 </div>
@@ -237,9 +237,9 @@
                 <h2 class="anunciante__titulo--color anunciante__titulo--boxYFlex ">Datos del anunciante</h2>
                 <h3 class="anunciante__nombre--color anunciante__texto--boxYFlex"> Propiedades Gold Ring</h3>
                 <!-- Si el anunciante es verificado -->
-                <p class="anunciante__verificado--color anunciante__verificado--boxYFlex">Anunciante verificado ★</p>
+                <p class="anunciante__verificado--color anunciante__verificado--boxYFlex">Anunciante verificado ★★★★★</p>
                 <!-- Anuncio de 375px por 443px -->
-                <img src="../imagenes/anuncioPropaganda.jpg" alt="Propaganda inmobiliaria">
+                <img src="../imagenes/anuncioPropaganda.jpg" alt="Propaganda inmobiliaria" class="img-fluid anunciante">
                 
             </div>
         </div>
@@ -252,33 +252,151 @@
                 <img  src="../imagenes/visualizacion.svg" alt="icono vistas" class="img-fluid visualizacion__icono--boxYFlex">
                 <h4 class="visualizacion__texto--color"> Publicado hace 4 días </h4>
             </div>
-            <div class="col-lg-6 col-xs-6 visualizacion__contenedor--boxYFlex">
+            <!-- <div class="col-lg-6 col-xs-6 visualizacion__contenedor--boxYFlex">
                 <img  src="../imagenes/vistas.svg" alt="icono vistas" class="img-fluid visualizacion__icono--boxYFlex">
                 <h4 class="visualizacion__texto--color"> 58 visualizaciones </h4>
-            </div>
+            </div> -->
         </div>
     </div>
+  
+         <!-- Tabla mobile -->
+<div class="col-xs-12 descripcion__contenedor--boxYFlex mobile" >
+  <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex" style="margin-bottom: 30px;">Características</h4>
+  <table >
+    <tbody>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/metro.svg" alt="logo hectareas" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+        <td class="informacion__tabla--boxYFlx">Superficie Total</td>
+        <td class="valores__Tabla--boxYFlex">200 m2</td>
+       
+        
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/baño.svg" alt="logo baños" class="img-fluid logos__tabla--color iconos__tamaño" style="height:45px; padding-right: 0px;"></td>
+        <td class="informacion__tabla--boxYFlx baños">Baños 👁<div class="detalle" aria-haspopup="true"><p style="margin-bottom: 0px;">Baño en excelente estado con muebles, bañera marca, lavamanos, cañerias en perfectas condiciones</p></div></td>
+        <td class="valores__Tabla--boxYFlex">2</td>
+       
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/dormitorio.svg" alt="logo domritorio" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+        <td class="informacion__tabla--boxYFlx">Dormitorios</td>
+        <td class="valores__Tabla--boxYFlex">4</td>
+        
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/anitguedad.svg" alt="logo antiguedad" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+        <td class="informacion__tabla--boxYFlx">Antiguedad</td>
+        <td class="valores__Tabla--boxYFlex">15 años</td>
+        
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/cochera.svg" alt="logo cochera" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+        <td class="informacion__tabla--boxYFlx">Cocheras</td>
+        <td class="valores__Tabla--boxYFlex">2</td>
+       
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/mascotas.svg" alt="logo mascotas" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+        <td class="informacion__tabla--boxYFlx">Acepta mascotas</td>
+        <td class="valores__Tabla--boxYFlex">No</td>
+       
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/terraza.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+        <td class="informacion__tabla--boxYFlx">Terraza/balcón</td>
+        <td class="valores__Tabla--boxYFlex">Si</td>
+        
+      </tr>
+      <tr>
+        <td class="logos__tabla--boxYFlex"><img src="../imagenes/internet.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+        <td class="informacion__tabla--boxYFlx">Acceso a internet</td>
+        <td class="valores__Tabla--boxYFlex">Si</td>
+       
+      </tr>
+    </tbody>
+  </table>
+  </div>
 
-    <!-- Descripcion -->
+
+    <!-- DCaracteristicas -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-8 col-xs-12 descripcion__contenedor--boxYFlex">
-                <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex">Descripción</h4>
-                <p class="descripcion__texto--color">Encantadora casa sobre lote propio totalmente refaccionada hace 15 años, desarrollada en 3 plantas con seminiveles.
-                    En el primer nivel encontramos pisos de roble de Eslavonia, un escritorio que se puede utilizar como biblioteca, atelier o dormitorio para huéspedes, toilette, amplio living, techos de doble atura, paredes con molduras, cocina con claraboya que permite el paso de la luz natural, comedor con sótano de 7 m2 para bodega de vinos, lindo patio interno de 12 m2.
-                    En el segundo nivel se encuentra un hall de acceso a los 4 dormitorios, pisos de pinotea, dos de ellos con salida a un balcón al frente, otro con ventana con vista al patio, baño completo con bañera y ducha y amplio dormitorio principal en suite con mini spa con hidromasaje y ducha, vestidor en altura con placares increíbles!
-                    En el tercer nivel hay una dependencia de servicio que está acondicionada como un amplio lavadero con baño con ducha y acceso a una gran terraza exclusiva de 111 m2 aprox con parrilla.
-                    Garage para auto con portón eléctrico y baulera. La propiedad cuenta con cerramientos de madera y escalera de época en excelente estado de conservación, hermosos vitrales decorativos en las ventanas y una claraboya en el segundo nivel. Calefacción individual por radiadores y agua caliente por caldera, 2 unidades multisplit para el aire acondicionado de todos los ambientes.
-                    Excelente ubicación en la mejor zona de Recoleta, muy cerca de importantes Avenidas como Pueyrredón, Las Heras y Libertador.
-                    
-                    Las medidas son aproximadas, las reales y los datos consignados serán verificados contra el título de propiedad.-
-                    La presente oferta de venta está condicionada a la confección del COTI por parte del propietario
-                    
-                    
-                    SALAYA ROMERA Propiedades
-                    
-                    </p>
-            </div>
+        <div class="row" >
+          <div class="col-lg-8 col-xs-12 descripcion__contenedor--boxYFlex">
+            <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex tituloCaract" style="margin-bottom: 30px;">Características</h4>
+            
+            <table class="tabla">
+              <tbody>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/metro.svg" alt="logo hectareas" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Superficie Total</td>
+                  <td class="valores__Tabla--boxYFlex">200 m2</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/metro.svg" alt="logo hectareas" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Superficie Total</td>
+                  <td class="valores__Tabla--boxYFlex">200 m2</td>
+                  
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/baño.svg" alt="logo baños" class="img-fluid logos__tabla--color iconos__tamaño" style="height:45px; padding-right: 0px;"></td>
+                  <td class="informacion__tabla--boxYFlx baños">Baños 👁<div class="detalle"><p style="margin-bottom: 0px;">Baño en excelente estado con muebles, bañera marca, lavamanos, cañerias en perfectas condiciones</p></div></td>
+                  <td class="valores__Tabla--boxYFlex">2</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/baño.svg" alt="logo baños" class="img-fluid logos__tabla--color iconos__tamaño" style="height:45px; padding-right: 0px;"></td>
+                  <td class="informacion__tabla--boxYFlx baños">Baños</td>
+                  <td class="valores__Tabla--boxYFlex">2</td>
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/dormitorio.svg" alt="logo domritorio" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Dormitorios</td>
+                  <td class="valores__Tabla--boxYFlex">4</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/dormitorio.svg" alt="logo domritorio" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Dormitorios</td>
+                  <td class="valores__Tabla--boxYFlex">4</td>
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/anitguedad.svg" alt="logo antiguedad" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Antiguedad</td>
+                  <td class="valores__Tabla--boxYFlex">15 años</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/anitguedad.svg" alt="logo antiguedad" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Antiguedad</td>
+                  <td class="valores__Tabla--boxYFlex">15 años</td>
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/cochera.svg" alt="logo cochera" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Cocheras</td>
+                  <td class="valores__Tabla--boxYFlex">2</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/cochera.svg" alt="logo cochera" class="img-fluid logos__tabla--color iconos__tamaño"></td>
+                  <td class="informacion__tabla--boxYFlx">Cocheras</td>
+                  <td class="valores__Tabla--boxYFlex">2</td>
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/mascotas.svg" alt="logo mascotas" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+                  <td class="informacion__tabla--boxYFlx">Acepta mascotas</td>
+                  <td class="valores__Tabla--boxYFlex">No</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/mascotas.svg" alt="logo mascotas" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+                  <td class="informacion__tabla--boxYFlx">Acepta mascotas</td>
+                  <td class="valores__Tabla--boxYFlex">No</td>
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/terraza.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+                  <td class="informacion__tabla--boxYFlx">Terraza/balcón</td>
+                  <td class="valores__Tabla--boxYFlex">Si</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/terraza.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+                  <td class="informacion__tabla--boxYFlx">Terraza/balcón</td>
+                  <td class="valores__Tabla--boxYFlex">Si</td>
+                </tr>
+                <tr>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/internet.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+                  <td class="informacion__tabla--boxYFlx">Acceso a internet</td>
+                  <td class="valores__Tabla--boxYFlex">Si</td>
+                  <td class="logos__tabla--boxYFlex"><img src="../imagenes/internet.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
+                  <td class="informacion__tabla--boxYFlx">Acceso a internet</td>
+                  <td class="valores__Tabla--boxYFlex">Si</td>
+                </tr>
+              </tbody>
+            </table>
+            
+          </div>
+          
+
             <!-- Contactarse -->
             <div class="col-lg-4 col-xs-12 contenedor__contacto--color">
                 <h4 class="contacto__titulo--boxYFlex">Contactate</h4>
@@ -308,57 +426,17 @@
         </div>
     </div>
 
-    <!-- Caracteristicas -->
+  
+    
+    <!-- ubicacion -->
     <div class="container-fluid">
-      <div class="row" style="margin-bottom: 40px;">
+      <div class="row">
         <div class="col-lg-8 col-xs-12 descripcion__contenedor--boxYFlex">
-          <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex">Características</h4>
-          <table>
-            <tbody>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/metro.svg" alt="logo hectareas" class="img-fluid logos__tabla--color iconos__tamaño"></td>
-                <td class="informacion__tabla--boxYFlx">Superficie Total</td>
-                <td class="valores__Tabla--boxYFlex">200 m2</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/baño.svg" alt="logo baños" class="img-fluid logos__tabla--color iconos__tamaño" style="height:45px; padding-right: 0px;"></td>
-                <td class="informacion__tabla--boxYFlx">Baños</td>
-                <td class="valores__Tabla--boxYFlex">2</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/dormitorio.svg" alt="logo domritorio" class="img-fluid logos__tabla--color iconos__tamaño"></td>
-                <td class="informacion__tabla--boxYFlx">Dormitorios</td>
-                <td class="valores__Tabla--boxYFlex">4</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/anitguedad.svg" alt="logo antiguedad" class="img-fluid logos__tabla--color iconos__tamaño"></td>
-                <td class="informacion__tabla--boxYFlx">Antiguedad</td>
-                <td class="valores__Tabla--boxYFlex">15 años</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/cochera.svg" alt="logo cochera" class="img-fluid logos__tabla--color iconos__tamaño"></td>
-                <td class="informacion__tabla--boxYFlx">Cocheras</td>
-                <td class="valores__Tabla--boxYFlex">2</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/mascotas.svg" alt="logo mascotas" class="img-fluid iconos__tamaño logos__tabla--color"></td>
-                <td class="informacion__tabla--boxYFlx">Acepta mascotas</td>
-                <td class="valores__Tabla--boxYFlex">No</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/terraza.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
-                <td class="informacion__tabla--boxYFlx">Terraza/balcón</td>
-                <td class="valores__Tabla--boxYFlex">Si</td>
-              </tr>
-              <tr>
-                <td class="logos__tabla--boxYFlex"><img src="../imagenes/internet.svg" alt="logo ambientes" class="img-fluid iconos__tamaño logos__tabla--color"></td>
-                <td class="informacion__tabla--boxYFlx">Acceso a internet</td>
-                <td class="valores__Tabla--boxYFlex">Si</td>
-              </tr>
-            </tbody>
-          </table>
-          
+          <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex">Ubicación</h4>
+          <h5 style="margin-bottom: 20px;"><strong>Av. Santa Fe 1235, Recoleta, CABA, Piso 3</strong></h5> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.34490503973!2d-58.38696998477057!3d-34.59543898046161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab9b69efacb%3A0x71c21108930eb33a!2sAv.%20Santa%20Fe%201235%2C%20C1059ABG%20CABA!5e0!3m2!1ses!2sar!4v1633446889736!5m2!1ses!2sar" width="100%" height="300px"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
+        
 <!-- Visita -->
         <div class="col-lg-4 col-xs-12 contenedor__visita--color">
           <h4 class="contacto__titulo--boxYFlex">Solicitar visita</h4>
@@ -394,14 +472,27 @@
       
         </div>
      
-        <!-- Ubicacion -->
+        <!-- descripcion -->
         <div class="container-fluid">
-          <div class="row" style="margin-bottom: 40px;">
+          <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
             <div class="col-lg-8 col-xs-12 descripcion__contenedor--boxYFlex">
-              <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex">Ubicación</h4>
-              <h5 style="margin-bottom: 20px;"><strong>Av. Santa Fe 1235, Recoleta, CABA, Piso 3</strong></h5> 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.34490503973!2d-58.38696998477057!3d-34.59543898046161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab9b69efacb%3A0x71c21108930eb33a!2sAv.%20Santa%20Fe%201235%2C%20C1059ABG%20CABA!5e0!3m2!1ses!2sar!4v1633446889736!5m2!1ses!2sar" width="100%" height="400px"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+              <h4 class="descripcion__titulo--color descripcion__titulo--boxYFlex">Descripción</h4>
+              <p class="descripcion__texto--color">Encantadora casa sobre lote propio totalmente refaccionada hace 15 años, desarrollada en 3 plantas con seminiveles.
+                  En el primer nivel encontramos pisos de roble de Eslavonia, un escritorio que se puede utilizar como biblioteca, atelier o dormitorio para huéspedes, toilette, amplio living, techos de doble atura, paredes con molduras, cocina con claraboya que permite el paso de la luz natural, comedor con sótano de 7 m2 para bodega de vinos, lindo patio interno de 12 m2.
+                  En el segundo nivel se encuentra un hall de acceso a los 4 dormitorios, pisos de pinotea, dos de ellos con salida a un balcón al frente, otro con ventana con vista al patio, baño completo con bañera y ducha y amplio dormitorio principal en suite con mini spa con hidromasaje y ducha, vestidor en altura con placares increíbles!
+                  En el tercer nivel hay una dependencia de servicio que está acondicionada como un amplio lavadero con baño con ducha y acceso a una gran terraza exclusiva de 111 m2 aprox con parrilla.
+                  Garage para auto con portón eléctrico y baulera. La propiedad cuenta con cerramientos de madera y escalera de época en excelente estado de conservación, hermosos vitrales decorativos en las ventanas y una claraboya en el segundo nivel. Calefacción individual por radiadores y agua caliente por caldera, 2 unidades multisplit para el aire acondicionado de todos los ambientes.
+                  Excelente ubicación en la mejor zona de Recoleta, muy cerca de importantes Avenidas como Pueyrredón, Las Heras y Libertador.
+                  
+                  Las medidas son aproximadas, las reales y los datos consignados serán verificados contra el título de propiedad.-
+                  La presente oferta de venta está condicionada a la confección del COTI por parte del propietario
+                  
+                  
+                  SALAYA ROMERA Propiedades
+                  
+                  </p>
+          </div>
+            
           </div>
         </div>
         
