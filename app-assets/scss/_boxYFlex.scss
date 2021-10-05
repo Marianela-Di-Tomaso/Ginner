@@ -605,7 +605,7 @@ tr{
     background-color: $negro;
     color: $blanco;
     width: 30%;
-    margin-left:40px ;
+    margin-left:50px ;
     position: absolute;
     z-index: 4;
     font-weight: lighter;
@@ -644,7 +644,7 @@ tr{
    
 .anuncio__contenedor--boxYFlex{
     max-width: 92%;
-    @media only screen and (min-width:0px) and (max-width:430px){
+    @media only screen and (min-width:0px) and (max-width:399px){
         max-width: 98%;
        width:320px;
        margin-right: 0px;
@@ -652,9 +652,20 @@ tr{
        height: 160px;
        padding-left: 0px;
        margin-left: 0px;
-       margin-left: 40px;
+       
      }
-    @media only screen and (min-width:431px) and (max-width:570px){
+    @media only screen and (min-width:400px) and (max-width:420px){
+        max-width: 98%;
+       width:320px;
+       margin-right: 0px;
+       margin-bottom: 30px;
+       height: 160px;
+       padding-left: 0px;
+       margin-left: 40px;
+       
+       
+     }
+    @media only screen and (min-width:421px) and (max-width:570px){
         max-width: 98%;
        width:370px;
        margin-right: 0px;
