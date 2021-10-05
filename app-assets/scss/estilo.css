@@ -1785,34 +1785,17 @@ tr {
   line-height: 20px;
   margin-bottom: 0px;
 }
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .detalle {
+    margin-left: 5px;
+    top: 1400px;
+    width: 50%;
+  }
+}
 
 .detalle:hover {
   opacity: 80%;
   transition: 1s;
-}
-
-@media only screen and (min-width: 0px) and (max-width: 500px) {
-  .detalle {
-    background-color: black;
-    color: white;
-    width: 30%;
-    margin-left: 40px;
-    position: absolute;
-    z-index: 4;
-    font-weight: lighter;
-    padding: 10px;
-    text-align: left;
-    opacity: 0%;
-    top: 150px;
-    left: 85px;
-    border-radius: 10px;
-    line-height: 20px;
-    margin-bottom: 0px;
-  }
-  .detalle .detalle:hover, .detalle .detalle:active {
-    opacity: 80%;
-    transition: 1s;
-  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1160px) {
