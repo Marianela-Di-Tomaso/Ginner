@@ -66,12 +66,25 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    }  
 } 
 
+.boton__nav--boxYFlex{
+    @media only screen and (min-width:0px) and (max-width:980px){
+       height: 45px;
+        align-items: center;
+        margin: 20px;
+        justify-content: center;
+    }  
+
+} 
+
+.navbar-toggler{
+    justify-content: flex-start;
+}
 .navbar-nav{
     align-items: center;
-}
+} 
 .nav-item{
     height: fit-content;
 
