@@ -54,12 +54,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 40px;
   border: none;
   color: black;
+  padding: 12px;
 }
 .boton__publicar--color:hover, .boton__buscar--boxYFlex:hover, .boton__perfil--color:hover {
   transition: 0.8s;
   background-color: #7E6011;
   color: white;
   box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+  text-decoration: none;
 }
 
 .boton__perfil--color {
@@ -547,6 +549,21 @@ iframe:hover {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* Seccion publicar */
+.elegir__titulo--color {
+  color: #C69E34;
+  font-family: "Raleway", sans-serif;
+  src: url("../tipografia/Raleway-Medium.ttf");
+  text-align: center;
+  font-weight: bold;
+}
+
+.estrellas__modal--color {
+  color: #C69E34;
+  font-size: 40px;
+  text-align: center;
+}
+
 /* Variables */
 body {
   background-color: #FFF9EC;
@@ -602,12 +619,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 40px;
   border: none;
   color: black;
+  padding: 12px;
 }
 .boton__publicar--color:hover, .boton__buscar--boxYFlex:hover, .boton__perfil--color:hover {
   transition: 0.8s;
   background-color: #7E6011;
   color: white;
   box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+  text-decoration: none;
 }
 
 .boton__perfil--color {
@@ -1093,6 +1112,21 @@ iframe:hover {
   background-color: black;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Seccion publicar */
+.elegir__titulo--color {
+  color: #C69E34;
+  font-family: "Raleway", sans-serif;
+  src: url("../tipografia/Raleway-Medium.ttf");
+  text-align: center;
+  font-weight: bold;
+}
+
+.estrellas__modal--color {
+  color: #C69E34;
+  font-size: 40px;
+  text-align: center;
 }
 
 body {
@@ -1910,6 +1944,17 @@ tr {
     margin-top: 20px;
     margin-left: 30px;
   }
+}
+
+/* Seccion publicar */
+.elegir__contenedor--boxYFlex {
+  align-items: center;
+  justify-content: center;
+}
+
+.elegir__titulo--boxYFlex {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 /* Efecto de la nav */
