@@ -180,7 +180,7 @@
                         <a class="nav-link nav__items--color nav_items--boxYFlex" href="franquicias.html">Franquicias</a>
                       </li>
                       <li class="nav-item">
-                        <button class="btn  my-2 my-sm-0 boton__publicar--color boton__nav--boxYFlex" type="submit">Publicar</button>
+                        <button class="btn  my-2 my-sm-0 boton__nav--boxYFlex" type="button"> <a href="publicar.html" class="boton__publicar--color"> Publicar</a></button>
                         <button class="btn  my-2 my-sm-0 boton__perfil--color boton__nav--boxYFlex" type="button" data-toggle="modal" data-target="#exampleModal"><img src="../imagenes/perfil.svg" alt="logo perfil"></button>
                       </li>
                       </ul>
@@ -200,7 +200,7 @@
                   <div class="card-body tarjetaElegir__tamaño--boxYFlex"  style="text-align: center;">
                     <h5 class="card-title titulo_particular">Particular</h5>
                     <p class="card-text texto_particular">Dueño directo</p>
-                    <a href="#" class="btn btn-primary boton__modal--color boton_tamaño" type="button">Elegir</a>
+                    <a href="#" class="btn btn-primary boton__modal--color boton_tamaño" data-toggle="modal" data-target="#modalParticularVerificado">Elegir</a>
                   </div>
                 </div>
               </div> 
@@ -210,14 +210,14 @@
             <div class="card-body tarjetaElegir__tamaño--boxYFlex" style="text-align: center;">
               <h5 class="card-title titulo_particular">Profesional</h5>
               <p class="card-text texto_particular">Inmobiliarias, corredores, constructoras</p>
-              <a href="#" class="btn btn-primary boton__modal--color boton_tamaño" data-toggle="modal" data-target="#modalProfesionalVerificado" data-dismiss="modal">Elegir</a>
+              <a href="#" class="btn btn-primary boton__modal--color boton_tamaño" data-toggle="modal" data-target="#modalProfesionalVerificado" >Elegir</a>
             </div>
           </div>
         </div> 
               </div> 
             </div>
 
-            <!-- OPCION DE VERIFICADO -->
+            <!-- OPCION DE VERIFICADO profesional -->
             <div class="modal fade" id="modalProfesionalVerificado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-md">
                 <div class="modal-content">
@@ -255,8 +255,225 @@
                     
                   </div>
                   <div class="modal-footer">
-                    <a href="#" class="btn btn-primary cerrar__modal--color" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Seguir como tradicional</a>
-                    <button type="button" class="btn btn-primary  registro__modal--color">Quiero ser verificado</button> 
+                    <a href="alta1.html" class="btn btn-primary cerrar__modal--color">Seguir como tradicional</a>
+                    <button type="button" class="btn btn-primary  registro__modal--color" data-dismiss="modal" data-toggle="modal" data-target="#datosProfesional" >Quiero ser verificado</button> 
+                  </div> 
+                </div>
+              </div>
+            </div>
+         
+            <!--PROFESIONAL VERIFICADO-->
+ <div class="modal fade" id="datosProfesional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <h5 class="modal-title">¡Estas a punto de publicar!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="texto__modal--boxYFlex">Para ser verificado, completa estos datos</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputPassword4">Nombre de la empresa</label>
+              <input type="email" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email de la empresa</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Teléfono de la empresa</label>
+              <input type="email" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+         
+          
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Localidad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">Provincia</label>
+              <select id="inputState" class="form-control">
+                <option selected>Elegir una provincia</option>
+                <option>Buenos Aires</option>
+                <option>Capital Federal</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputPassword4">Logotipo de la empresa</label><br>
+              <input type="file" name="archivosubido">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Numero de Documento</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Foto de documento</label>
+              <br>
+              <input type="file" name="archivosubido" multiple>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Al registrarte aceptas los terminos y condiciones
+              </label>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn btn-primary cerrar__modal--color" data-toggle="modal" data-target="#modalProfesionalVerificado" data-dismiss="modal">Volver atrás</a>
+        <button type="button" class="btn btn-primary  registro__modal--color">Continuar</button> 
+      </div> 
+    </div>
+  </div>
+</div>
+
+            <!-- OPCION DE VERIFICADO particular -->
+            <div class="modal fade" id="modalParticularVerificado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                  <div class="modal-header" >
+                    <h5 class="modal-title">¡Ya casi!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="texto__modal--boxYFlex" style="text-align: center;padding-bottom: 0px;">¿Te gusaria ser un perfil <strong> tradicional</strong> o <strong> verificado</strong>?</p>
+                    <h6 class="estrellas__modal--color">★★★★★</h6>
+                  <h6  style="text-align: center; font-size:20px ;"> Perfil verificado</h6>
+                  <p  style="text-align: center;">El usuario VERIFICADO deberá 
+                    aportar datos fidedignos, los 
+                    cuales serán corroborados por
+                    nuestro departamento de legales, 
+                    esta condición dará más SERIEDAD
+                     y SEGURIDAD al ANUNCIO y 
+                    mejorara la puntuación de 
+                    ANUNCIANTE. Ademas de 
+                    acceder a promociones y 
+                    descuentos especiales, teniendo
+                    tambien prioridades ante igualdad
+                    de condiciones en el posicionamineto
+                    del aviso. 
+                    Importante.
+                    *Los datos del DNI y CUIT o CUIL
+                     no serán de exhibición publica.
+                    *Los datos del DNI son solicitados a
+                     solo efecto de corroborar identidad.
+                    *Los datos fiscales son requisito
+                    indispensable para la correcta 
+                    facturación.</p>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <a href="alta1.html" class="btn btn-primary cerrar__modal--color">Seguir como tradicional</a>
+                    <button type="button" class="btn btn-primary  registro__modal--color" data-dismiss="modal" data-toggle="modal" data-target="#datosParticular" >Quiero ser verificado</button>  
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+            <!-- DATOS PARTICULAR -->
+            <div class="modal fade" id="datosParticular" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header" >
+                    <h5 class="modal-title">¡Ya casi!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="texto__modal--boxYFlex">Para registrate, completa estos datos</p>
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Nombre</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Apellido</label>
+                          <input type="email" class="form-control" id="inputPassword4">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Teléfono</label>
+                          <input type="email" class="form-control" id="inputPassword4">
+                        </div>
+                      </div>
+                     
+                      
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Localidad</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputState">Provincia</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Elegir una provincia</option>
+                            <option>Buenos Aires</option>
+                            <option>Capital Federal</option>
+                            <option>Catamarca</option>
+                            <option>Chaco</option>
+                            <option>Chubut</option>
+                            <option>Córdoba</option>
+                            <option>Corrientes</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Numero de Documento</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Foto de documento</label>
+                          <br>
+                          <input type="file" name="archivosubido" multiple>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Al registrarte aceptas los terminos y condiciones
+                          </label>
+                        </div>
+                      </div>
+                    </form>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#" class="btn btn-primary cerrar__modal--color" data-toggle="modal" data-target="#modalParticularVerificado" data-dismiss="modal">Volver atrás</a>
+                    <button type="button" class="btn btn-primary  registro__modal--color">Continuar</button> 
                   </div> 
                 </div>
               </div>
