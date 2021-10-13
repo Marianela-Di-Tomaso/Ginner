@@ -1972,6 +1972,24 @@ tr {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .logos__tabla--boxYFlex, .valores__Tabla--boxYFlex {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .informacion__tabla--boxYFlx {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .descripcion__contenedor--boxYFlex {
+    width: 70%;
+  }
+}
+
 /* Efecto de la nav */
 .nav-link, .boton__publicar--color, .boton__perfil--color, .boton__buscar--boxYFlex {
   -webkit-animation-duration: 15s;
