@@ -1962,8 +1962,9 @@ tr {
 }
 
 .card__eleccion {
-  padding: 110px;
-  padding-top: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 @media only screen and (min-width: 0px) and (max-width: 980px) {
   .card__eleccion {
@@ -1988,6 +1989,10 @@ tr {
   .descripcion__contenedor--boxYFlex {
     width: 70%;
   }
+}
+
+.ancho {
+  width: 40%;
 }
 
 /* Efecto de la nav */
