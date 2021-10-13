@@ -564,6 +564,15 @@ iframe:hover {
   text-align: center;
 }
 
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
 /* Variables */
 body {
   background-color: #FFF9EC;
@@ -1127,6 +1136,15 @@ iframe:hover {
   color: #C69E34;
   font-size: 40px;
   text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 body {
@@ -1955,6 +1973,11 @@ tr {
 .elegir__titulo--boxYFlex {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.form-row > .col, .form-row > [class*=col-] {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /* Efecto de la nav */
