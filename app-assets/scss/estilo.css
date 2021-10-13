@@ -541,6 +541,7 @@ iframe:hover {
   src: url("../tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
+  font-size: 28px;
 }
 @media only screen and (min-width: 0px) and (max-width: 980px) {
   .elegir__titulo--color {
@@ -566,7 +567,7 @@ label {
 }
 
 input {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   margin-right: 20px;
 }
 
@@ -1112,6 +1113,7 @@ iframe:hover {
   src: url("../tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
+  font-size: 28px;
 }
 @media only screen and (min-width: 0px) and (max-width: 980px) {
   .elegir__titulo--color {
@@ -1137,7 +1139,7 @@ label {
 }
 
 input {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   margin-right: 20px;
 }
 
@@ -1956,8 +1958,6 @@ tr {
 
 /* Seccion publicar */
 .elegir__contenedor--boxYFlex {
-  margin-top: 140px;
-  margin-bottom: 140px;
   text-align: center;
 }
 

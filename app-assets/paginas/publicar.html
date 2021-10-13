@@ -22,7 +22,7 @@
 <body>
 
  <!-- REGISTRO 1-->
- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:auto">
   <div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header" >
@@ -76,7 +76,7 @@
 </div>
     
    <!--DATOS -->
-<div class="modal fade" id="modalRegistroSimple" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modalRegistroSimple" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:auto">
     <div class="modal-dialog modal-md">
       <div class="modal-content">
         <div class="modal-header" >
@@ -191,41 +191,23 @@
     </div>
     
     <!-- Elegir -->
-    <div class="container-fluid" style="height: 538px;">
+    <div class="container-fluid" >
       <div class="row">
       <div class="col-lg-12 elegir__contenedor--boxYFlex">
         <h1 class="elegir__titulo--boxYFlex elegir__titulo--color"> ¿Estás listo para publicar tu propiedad en Grinne?</h1>
         <p class="texto__elegir--color">Porfavor, elegí el tipo de cuenta que se adapte a tu necesidades</p>
-        <button class= "registro__modal--color boton__elegirCuenta" type="button" data-toggle="modal" data-target="#modalEleccion" > Ver tipos de cuenta</button>
       </div>
-              </div> 
-            </div>
-
-            <!-- Modal elegir-->
-<div class="modal fade" id="modalEleccion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-x:auto">
-  <div class="modal-dialog modal-lg modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header" style="padding-bottom: 0px; padding-top: 5px;" >
-        <h5 class="modal-title" id="exampleModalLabel">1.Elegí el tipo de cuenta</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body" style="padding:4px">
-       
-        <div class="contendor__modal--boxyflex">
-          
-
-        <div class="card" style="width: 18rem; align-items: center;">
+      <div class="col-lg-12" style="display: flex; justify-content: center; margin-top: 0px; margin-bottom: 30px; ">
+        <div class="card" style="width: 18rem; align-items: center; margin: 20px;">
           <img src="../imagenes/particular.png" class="card-img-top img-fluid" style="width: 180px;" alt="logo particular">
           <div class="card-body tarjetaElegir__tamaño--boxYFlex"  style="text-align: center;">
             <h5 class="card-title titulo_particular">Particular</h5>
             <p class="card-text texto_particular">Dueño directo</p>
-            <a href="#" class="btn btn-primary boton__modal--color boton_tamaño" type="button" data-toggle="modal" data-target="#" data-dismiss="modal">Elegir</a>
+            <a href="#" class="btn btn-primary boton__modal--color boton_tamaño" type="button" data-toggle="modal" data-target="#modalParticularVerificado" data-dismiss="modal">Elegir</a>
           </div>
         </div>
         
-        <div class="card" style="width: 18rem; align-items: center;">
+        <div class="card" style="width: 18rem; align-items: center;  margin: 20px;">
           <img src="../imagenes/profesional.png" class="card-img-top img-fluid imagenProf__tamaño"  style="width: 120px;" alt="logo profesional">
           <div class="card-body tarjetaElegir__tamaño--boxYFlex" style="text-align: center;">
             <h5 class="card-title titulo_particular">Profesional</h5>
@@ -236,17 +218,12 @@
       </div>
 
       </div>
-      <div class="modal-footer">
-       
-      </div> 
     </div>
-  </div>
-</div>
-
+      
 
             <!-- OPCION DE VERIFICADO profesional -->
-            <div class="modal fade" id="modalProfesionalVerificado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="overflow-x:auto">
-              <div class="modal-dialog modal-md modal-dialog-scrollable">
+            <div class="modal fade" id="modalProfesionalVerificado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="overflow-y:auto">
+              <div class="modal-dialog modal-md">
                 <div class="modal-content">
                   <div class="modal-header" >
                     <h5 class="modal-title">¡Ya casi!</h5>
@@ -292,8 +269,8 @@
             </div>
 
             <!-- PROFESIONAL TRADICIONAL -->
-            <div class="modal fade" id="datosProfesionalTradicional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-md modal-dialog-scrollable">
+            <div class="modal fade" id="datosProfesionalTradicional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:auto">
+              <div class="modal-dialog modal-md">
                 <div class="modal-content">
                   <div class="modal-header" >
                     <h5 class="modal-title">¡Ya casi!</h5>
@@ -348,7 +325,7 @@
          
             <!--PROFESIONAL VERIFICADO-->
  <div class="modal fade" id="datosProfesional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:auto">
-  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+  <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header" >
         <h5 class="modal-title">¡Estas a punto de publicar!</h5>
@@ -356,32 +333,32 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="padding-left: 80px; padding-bottom: 0px;">
-        <form>
+      <div class="modal-body" style="padding-left: 10px; padding-bottom: 0px;">
+        <form style="margin: 20px">
 
           <div class="form-row">
-            <div class="form-group col-lg-4 col-md-12">
-              <label for="inputPassword4">Nombre responsable Inscripto</label>
+            <div class="form-group col-lg-3 col-md-12">
+              <label for="inputPassword4">Nombre responsable </label>
               <input type="email" class="form-control" id="inputPassword4">
             </div>
-            <div class="form-group col-lg-4 col-md-12">
-              <label for="inputEmail4">Apellido responsable inscripto</label>
+            <div class="form-group col-lg-3 col-md-12">
+              <label for="inputEmail4">Apellido responsable</label>
               <input type="email" class="form-control" id="inputEmail4">
             </div>
-            <div class="form-group col-lg-4 col-md-12">
+            <div class="form-group col-lg-3 col-md-12">
               <label for="inputPassword4">Numero de documento</label>
               <input type="email" class="form-control" id="inputPassword4">
+            </div>
+            <div class="form-group col-lg-3 col-md-12">
+              <label for="inputEmail4">Foto de documento</label>
+              <br>
+              <input type="file" name="archivosubido" multiple style="width:90%;">
             </div>
           </div>
 
         
             <div class="form-row">
-              <div class="form-group col-lg-4 col-md-12">
-                <label for="inputEmail4">Foto de documento</label>
-                <br>
-                <input type="file" name="archivosubido" multiple style="width:90%;">
-              </div>
-            <div class="form-group col-lg-4 col-md-12">
+            <div class="form-group col-lg-3 col-md-12">
               <div class="form-group">
                 <label for="start">Fecha de nacimiento</label><br>
     
@@ -389,85 +366,16 @@
                        value="2018-07-22" min="2018-01-01" max="2018-12-31" style="width: 100%;">
                           </div>
             </div>
-            <div class="form-group col-lg-4 col-md-12">
+            <div class="form-group col-lg-3 col-md-12">
               <label for="inputPassword4">Domicilio</label>
               <input type="email" class="form-control" id="inputPassword4">
             </div>
-          </div>
-
-            <div class="form-row">
-              <div class="form-group col-lg-4 col-md-12">
-                <label for="inputPassword4">Barrio</label>
-                <input type="email" class="form-control" id="inputPassword4">
-              </div>
-              <div class="form-group col-lg-4 col-md-12">
-                <label for="inputCity">Localidad</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group col-lg-4 col-md-12">
-                <label for="inputState">Provincia</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Elegir una provincia</option>
-                  <option>Buenos Aires</option>
-                  <option>Capital Federal</option>
-                  <option>Catamarca</option>
-                  <option>Chaco</option>
-                  <option>Chubut</option>
-                  <option>Córdoba</option>
-                  <option>Corrientes</option>
-                </select>
-              </div>
-          </div>
-          
-
-          <div class="form-row">
-            <div class="form-group col-lg-4 col-md-12">
-              <label for="inputPassword4">Nombre de la empresa</label>
-              <input type="email" class="form-control" id="inputPassword4">
-            </div>
-         
-         <!--  <div class="form-row"> -->
-            <div class="form-group col-lg-4 col-md-12">
-              <label for="inputEmail4">Email de la empresa</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="form-group col-lg-4 col-md-12">
-              <label for="inputPassword4">Teléfono de la empresa</label>
-              <input type="email" class="form-control" id="inputPassword4">
-            </div>
-          </div>
-          <!-- </div> -->
-          <div class="form-row">
-          <div class="form-group col-lg-4 col-md-12">
-           
-              <label for="inputState">Condición fiscal</label>
-              <select id="inputState" class="form-control">
-                <option selected>Elegir una condición</option>
-                <option>Monotributo</option>
-                <option>Consumidor final</option>
-                <option>Responsable inscripto</option>
-                <option>Exento</option>
-              </select>
-            </div>
-          
-          <div class="form-group col-lg-4 col-md-12">
-            <label for="inputPassword4">Número de CUIT</label>
-            <input type="email" class="form-control" id="inputPassword4">
-          </div>
-          <div class="form-group col-lg-4 col-md-12">
-            <label for="inputCity">Barrio</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-        </div>
-      
-         
-          
-          <div class="form-row">
-            <div class="form-group col-lg-4 col-md-12">
+            <div class="form-group col-lg-3 col-md-12">
               <label for="inputCity">Localidad</label>
               <input type="text" class="form-control" id="inputCity">
             </div>
-            <div class="form-group col-lg-4 col-md-12">
+            
+            <div class="form-group col-lg-3 col-md-12">
               <label for="inputState">Provincia</label>
               <select id="inputState" class="form-control">
                 <option selected>Elegir una provincia</option>
@@ -480,13 +388,66 @@
                 <option>Corrientes</option>
               </select>
             </div>
-            <div class="form-group col-lg-4 col-md-12">
-              <label for="inputPassword4">Logotipo de la empresa</label><br>
-              <input type="file" name="archivosubido" style="width:90%;">
-            </div>
           </div>
 
+          <hr style="border: 2px solid #C69E34; margin-top: 0px;">
+          <div class="form-row">
+            <div class="form-group col-lg-3 col-md-12">
+              <label for="inputPassword4">Nombre de la empresa</label>
+              <input type="email" class="form-control" id="inputPassword4">
+            </div>
+            <div class="form-group col-lg-3 col-md-12">
+              <label for="inputEmail4">Email de la empresa</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-lg-3 col-md-12">
+              <label for="inputPassword4">Teléfono de la empresa</label>
+              <input type="email" class="form-control" id="inputPassword4">
+            </div>
+            <div class="form-group col-lg-3 col-md-12">
+           
+              <label for="inputState">Condición fiscal</label>
+              <select id="inputState" class="form-control">
+                <option selected>Elegir una condición</option>
+                <option>Monotributo</option>
+                <option>Consumidor final</option>
+                <option>Responsable inscripto</option>
+                <option>Exento</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="form-row">
+          <div class="form-group col-lg-3 col-md-12">
+            <label for="inputPassword4">Número de CUIT</label>
+            <input type="email" class="form-control" id="inputPassword4">
+          </div>
+          <div class="form-group col-lg-3 col-md-12">
+            <label for="inputCity">Localidad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-lg-3 col-md-12">
+            <label for="inputState">Provincia</label>
+            <select id="inputState" class="form-control">
+              <option selected>Elegir una provincia</option>
+              <option>Buenos Aires</option>
+              <option>Capital Federal</option>
+              <option>Catamarca</option>
+              <option>Chaco</option>
+              <option>Chubut</option>
+              <option>Córdoba</option>
+              <option>Corrientes</option>
+            </select>
+          </div>
+          <div class="form-group col-lg-3 col-md-12">
+            <label for="inputPassword4">Logotipo de la empresa</label><br>
+            <input type="file" name="archivosubido" style="width:90%;">
+          </div>
+        </div>
+      
          
+          
+      
 
           <div class="form-group">
             <div class="form-check">
@@ -509,7 +470,7 @@
 
             <!-- OPCION DE VERIFICADO particular -->
             <div class="modal fade" id="modalParticularVerificado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:auto">
-              <div class="modal-dialog modal-md modal-dialog-scrollable">
+              <div class="modal-dialog modal-md">
                 <div class="modal-content">
                   <div class="modal-header" >
                     <h5 class="modal-title">¡Ya casi!</h5>
@@ -552,9 +513,9 @@
               </div>
             </div>
 
-            <!-- DATOS PARTICULAR -->
-            <div class="modal fade" id="datosParticular" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <!-- DATOS PARTICULAR VERIFICADO-->
+            <div class="modal fade" id="datosParticular" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:auto">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header" >
                     <h5 class="modal-title">¡Ya casi!</h5>
@@ -562,36 +523,33 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body" style="padding-right: 0px;">
                     <form>
                       <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputEmail4">Nombre</label>
                           <input type="email" class="form-control" id="inputEmail4">
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputEmail4">Apellido</label>
                           <input type="email" class="form-control" id="inputPassword4">
                         </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputEmail4">Email</label>
                           <input type="email" class="form-control" id="inputEmail4">
                         </div>
-                        <div class="form-group col-md-6">
+                        
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputEmail4">Teléfono</label>
                           <input type="email" class="form-control" id="inputPassword4">
                         </div>
-                      </div>
-                     
-                      
-                      <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputCity">Localidad</label>
                           <input type="text" class="form-control" id="inputCity">
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputState">Provincia</label>
                           <select id="inputState" class="form-control">
                             <option selected>Elegir una provincia</option>
@@ -604,18 +562,23 @@
                             <option>Corrientes</option>
                           </select>
                         </div>
+                        
                       </div>
+                     
+                      
                       <div class="form-row">
-                        <div class="form-group col-md-6">
+                        
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputEmail4">Numero de Documento</label>
                           <input type="email" class="form-control" id="inputEmail4">
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4 col-md-12">
                           <label for="inputEmail4">Foto de documento</label>
                           <br>
                           <input type="file" name="archivosubido" multiple>
                         </div>
                       </div>
+                      
                       <div class="form-group">
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" id="gridCheck">
