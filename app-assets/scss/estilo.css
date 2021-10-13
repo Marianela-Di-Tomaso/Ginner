@@ -386,29 +386,14 @@ iframe:hover {
   font-size: 18px;
   margin: 10px;
 }
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .titulo_particular {
-    font-size: 13px;
-  }
-}
 
 .texto_particular {
   font-size: 16px;
   margin: 10px;
 }
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .texto_particular {
-    font-size: 12px;
-  }
-}
 
 .boton_tamaño {
   font-size: 14px;
-}
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .boton_tamaño {
-    font-size: 12px;
-  }
 }
 
 /* ANUNCIO AMPLIADO */
@@ -556,6 +541,14 @@ iframe:hover {
   src: url("../tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
+}
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .elegir__titulo--color {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .estrellas__modal--color {
@@ -960,29 +953,14 @@ iframe:hover {
   font-size: 18px;
   margin: 10px;
 }
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .titulo_particular {
-    font-size: 13px;
-  }
-}
 
 .texto_particular {
   font-size: 16px;
   margin: 10px;
 }
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .texto_particular {
-    font-size: 12px;
-  }
-}
 
 .boton_tamaño {
   font-size: 14px;
-}
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .boton_tamaño {
-    font-size: 12px;
-  }
 }
 
 /* ANUNCIO AMPLIADO */
@@ -1130,6 +1108,14 @@ iframe:hover {
   src: url("../tipografia/Raleway-Medium.ttf");
   text-align: center;
   font-weight: bold;
+}
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .elegir__titulo--color {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .estrellas__modal--color {
@@ -1613,11 +1599,6 @@ body {
   height: 180px;
   margin: 5px;
 }
-@media only screen and (min-width: 0px) and (max-width: 1000px) {
-  .tarjetaElegir__tamaño--boxYFlex {
-    width: 300px;
-  }
-}
 
 .imagenProf__tamaño {
   margin-bottom: 10px;
@@ -1978,6 +1959,17 @@ tr {
 .form-row > .col, .form-row > [class*=col-] {
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.card__eleccion {
+  padding: 110px;
+  padding-top: 20px;
+}
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+  .card__eleccion {
+    padding: 80px;
+    padding-top: 10px;
+  }
 }
 
 /* Efecto de la nav */

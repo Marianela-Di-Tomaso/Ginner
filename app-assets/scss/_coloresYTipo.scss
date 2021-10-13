@@ -371,23 +371,17 @@ iframe:hover{
 .titulo_particular{
     font-size: 18px;
     margin: 10px;
-    @media only screen and (min-width:0px) and (max-width:600px){
-        font-size: 13px; }
 }
 
 .texto_particular{
     font-size: 16px;
     margin: 10px;
-    @media only screen and (min-width:0px) and (max-width:600px){
-        font-size: 12px; }
     
 }
 .boton_tamaño{
     font-size: 14px;
     
-    @media only screen and (min-width:0px) and (max-width:600px){
-        font-size: 12px; }
-
+  
 }
 
 /* ANUNCIO AMPLIADO */
@@ -535,6 +529,13 @@ iframe:hover{
     src: url("../tipografia/Raleway-Medium.ttf");
     text-align: center;
     font-weight: bold;
+    @media only screen and (min-width:0px) and (max-width:980px){
+        font-size: 18px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+       
+     }
 }
 
 .estrellas__modal--color{
