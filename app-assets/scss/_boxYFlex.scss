@@ -486,8 +486,15 @@ body , html{
 }
 
 .seccionDerecha__anunciante--boxYFlex{
-    padding-top: 0px;
+    padding-top: 15px;
     padding-left: 35px;
+    border: 4px solid $dorado;
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 20px;
+    max-height: 490px;
+    @media only screen and (min-width:981px) and (max-width:1430px){
+        max-height: 460px;
+        }
 }
 
 
@@ -671,14 +678,14 @@ tr{
    
 .anuncio__contenedor--boxYFlex{
     max-width: 100%;
-    height: 120px;
+    height: 100px;
     margin-left: 0px;
     margin-bottom: 20px;
    
 }
 
 .tabla , .tituloCaract , .visualizacion__texto--boxYFlex , .visualizacion__icono--boxYFlex{
-    @media only screen and (min-width:0px) and (max-width:500px){
+    @media only screen and (min-width:0px) and (max-width:980px){
         display: none;
      }
 
@@ -687,7 +694,7 @@ tr{
 
 .mobile , .titulo_mobile{
     display: none;
-    @media only screen and (min-width:0px) and (max-width:500px){
+    @media only screen and (min-width:0px) and (max-width:980px){
         display: table;
         padding-right: 0px;
         padding-left: 10px;
@@ -695,12 +702,16 @@ tr{
 }
 
 .anunciante{
-    width: 80%;
-    height: 68%;
-    max-height: 68%;
+    width: 60%;
+    height: 45%;
+    max-height: 45%;
     @media only screen and (min-width:0px) and (max-width:980px){
      width: 50%;
-     height: 70%;
+     height: 60%;
+     }
+    @media only screen and (min-width:981px) and (max-width:1430px){
+     width: 45%;
+     height: 35%;
      }
 
 }
@@ -849,11 +860,6 @@ a.carousel-control-prev{
       }
 }
 
-.descripcion__contenedor--boxYFlex {
-    @media only screen and (min-width:0px) and (max-width:980px){
-        width: 70%;
-        
-      }}
 
 .ancho{
     width: 40%;
